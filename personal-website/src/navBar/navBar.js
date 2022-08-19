@@ -11,7 +11,7 @@
 import { Outlet, Link } from 'react-router-dom';
 
 
-function navBar() {
+ function navBar() {
     return (
         <div className="navBar">
             <nav id = "naviGation">
