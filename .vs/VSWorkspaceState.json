@@ -2,9 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\personal-website",
-    "\\personal-website\\public",
     "\\personal-website\\src",
-    "\\personal-website\\src\\cssFiles"
+    "\\personal-website\\src\\aboutPage",
+    "\\personal-website\\src\\cssFiles",
+    "\\personal-website\\src\\jobsPage",
+    "\\personal-website\\src\\landingPage",
+    "\\personal-website\\src\\projectsPages",
+    "\\personal-website\\src\\qualificationsPage"
   ],
   "PreviewInSolutionExplorer": false
 }

@@ -1,3 +1,43 @@
-﻿body
+﻿
+
+
+.navBar 
 {
+    
 }
+
+#naviGation 
+{
+   text-align:center;
+   text-decoration-style: solid;
+  
+   
+
+}
+
+#navBarList {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-decoration: none;
+}
+
+.navItem {
+    border-width: 70px;
+    font-family: 'Bauhaus 93';
+    text-decoration:none;
+
+}
+
+.navItem :visited
+{
+    color:black;
+    text-decoration: none;
+}
+
+    .navItem :link
+    {
+        text-decoration: none;
+    }
+
+    
