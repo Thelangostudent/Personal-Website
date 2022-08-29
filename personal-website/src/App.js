@@ -23,7 +23,7 @@ function App() {
                   <Route path="/" element={<NavBar />}>
                       <Route index element={<LandingPage />} />
                       <Route path="baseProjectPage" element={<ProjectsPages />} />
-                      <Route path="*" element={<AboutPage />} />
+                      <Route path="aboutPage" element={<AboutPage />} />
                       <Route path="baseJobPage" element={<JobsPage />} />
                       <Route path="baseQualificationsPage" element={<QualificationsPage />} />
                   </Route>

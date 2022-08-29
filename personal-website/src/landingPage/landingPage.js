@@ -14,7 +14,7 @@ function landingPage() {
         
         <div id="inPageshortCuts">
                 <ul> Shortcuts
-                    <li className="shortCut"></li>
+                    <li className="shortCut"><a href="#news_1">Site finally launched!</a></li>
 
 
                 </ul> 

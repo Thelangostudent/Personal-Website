@@ -1,11 +1,16 @@
 // JavaScript source code
 
+/**
+ * This page displays the jobs I have had so far.
+ * 
+ * */
+
 
 function baseJobPage() {
 
     return (
         
-      <p>baseJobpage test</p>  
+        <h2>Jobs I have done will be here upon release of next version of this site <br></br>Stay tuned for updates!</h2>
         
     );
 
