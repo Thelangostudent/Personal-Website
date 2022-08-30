@@ -19,7 +19,7 @@ import '../cssFiles/navBar.css';
               
                 <ul id="navBarList">
                     <li className="navItem">
-                        <Link to ="/"> Logo goes here (landing page)</Link>
+                        <Link to ="/"> Main Page</Link>
                     </li>
                     <li className="navItem">
                         <Link to ="/aboutPage">About</Link>

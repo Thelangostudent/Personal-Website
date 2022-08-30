@@ -1,0 +1,102 @@
+﻿
+
+
+
+#landingPageContainer
+{
+    display:grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+
+#pageHeader
+{
+    text-align:center;
+    grid-column-start:2;
+    grid-column-end:3;
+    font-family:'Bauhaus 93';
+    font-size: xx-large;
+}
+
+#shortCutsTitle
+{
+    text-align:center;
+    font-style:normal;
+    font-size:larger;
+    font-weight:bold;
+    
+}
+
+#inPageshortCuts {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    width: 200px;
+    min-height: 200px;
+    max-height: 250px;
+
+    text-decoration:none;
+    text-align:left;
+    margin-left:20px;
+
+    border-style:groove;
+    border-radius: 70px 20px;
+    border-left-width:20px;
+    border-right-width:20px;
+    border-color: darkcyan;
+    border-top-width:30px;
+    border-bottom-width:30px;
+    
+    
+}
+
+.shortCut {
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+    .shortCut:visited 
+    {
+        text-align:right;
+        
+        list-style-type:none;
+    }
+
+    .shortCut::marker
+    {
+     
+        text-decoration:none;
+    }
+
+
+#newsContent
+{
+    text-align: left;
+    grid-column-start:2;
+    grid-column-end: 3;
+    margin-left: 50px;
+}
+
+a 
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+   
+
+#news_1 
+{
+}
+
+.newsHeadline 
+{
+}
+
+.newsContent 
+{
+}

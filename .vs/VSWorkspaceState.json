@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\personal-website",
-    "\\personal-website\\public",
     "\\personal-website\\src",
-    "\\personal-website\\src\\cssFiles",
+    "\\personal-website\\src\\assets",
+    "\\personal-website\\src\\assets\\images",
     "\\personal-website\\src\\jobsPage",
     "\\personal-website\\src\\landingPage",
     "\\personal-website\\src\\navBar",
     "\\personal-website\\src\\projectsPages",
     "\\personal-website\\src\\qualificationsPage"
   ],
-  "SelectedNode": "\\personal-website\\src\\App.js",
+  "SelectedNode": "\\personal-website\\src\\qualificationsPage\\baseQualificationsPage.js",
   "PreviewInSolutionExplorer": false
 }

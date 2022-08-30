@@ -3,16 +3,13 @@
 
 .navBar 
 {
-    
+    margin:0;
 }
 
-#naviGation 
-{
-   text-align:center;
-   text-decoration-style: solid;
-  
-   
-
+#naviGation {
+    text-align: center;
+    text-decoration-style: solid;
+    background-color: aqua;
 }
 
 #navBarList {
