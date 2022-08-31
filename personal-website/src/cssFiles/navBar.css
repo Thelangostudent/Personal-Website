@@ -23,6 +23,7 @@
     border-width: 70px;
     font-family: 'Bauhaus 93';
     text-decoration:none;
+    color:black;
 
 }
 
@@ -35,6 +36,7 @@
     .navItem :link
     {
         text-decoration: none;
+        color:black;
     }
 
     
