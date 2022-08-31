@@ -11,6 +11,7 @@
  * */
 
 import profilePicture from '../assets/images/Profilbilete.jpg';
+import '../cssFiles/aboutPage.css';
 
 
 function aboutPage() {
@@ -19,22 +20,22 @@ function aboutPage() {
         <div id= "aboutPageContainer">
             <h2 id="aboutPageTitle"> About Me </h2>
             <div id="contactInfo">
-                <ul>Contact info
+                <ul><p id="shortCutsTitle">Contact info</p>
                     <li><b>Phone Number:</b> +47 978 30 520</li>
                     <li><b>Email:</b> sander.ringmo@hotmail.no</li>
-                    <li><b>Alternate Email</b> sander.ringmo@gmail.com</li>
-                    <li><b>Linked In</b> <a href="https://www.linkedin.com/in/sander-ringmo-fylkesnes-1561441b0/">My profile</a></li>
+                    <li><b>Alternate Email:</b> sander.ringmo@gmail.com</li>
+                    <li><b>Linked In:</b> <a href="https://www.linkedin.com/in/sander-ringmo-fylkesnes-1561441b0/">Click here for my profile</a></li>
                 </ul>
             </div>
 
             <div id="imageContainer">
-                <img src={profilePicture} alt="image of me"></img>
+                <img id="profilePicture" src={profilePicture} alt="image of me" width="200px" ></img>
 
             </div>
 
             <div id="summaryContainer">
                 <h3>Summary of me</h3>
-                <p>I have recently graduated Computer engineering at NTNU Ålesund. I have had an interest in IT for quite some time (since at least vocational school) and now have more professional qualifications. <br></br>
+                <p>I have recently graduated Computer engineering at NTNU Aalesund. I have had an interest in IT for quite some time (since at least vocational school) and now have more professional qualifications. <br></br>
                   I can work both as a computer engineer (programming, system development...etc) and as a Computer electrician, whichever is needed of me. When something is new to me, I am always willing to learn.</p>
             </div>
 
