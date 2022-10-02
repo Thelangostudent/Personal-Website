@@ -10,6 +10,7 @@
 
 import { Outlet, Link } from 'react-router-dom';
 import '../cssFiles/navBar.css';
+import  DarkLightButton  from '../darkLightButton/darklightButton';
 
 
  function navBar() {
@@ -31,15 +32,16 @@ import '../cssFiles/navBar.css';
                         <Link to ="/baseQualificationsPage">Qualifications</Link>
                     </li>
                     <li className="navItem">
-                        <Link to ="/baseJobPage" >Jobs</Link>
+                        <Link to="/baseJobPage" >Jobs</Link>
+                        
                     </li>
-
+                    
                 </ul>
-
+                <DarkLightButton />
 
             </nav>
             <Outlet/>
-
+            
         </div>
 
       

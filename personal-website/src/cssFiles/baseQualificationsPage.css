@@ -16,6 +16,8 @@
 
     font-size:xx-large;
 
+    text-align: center;
+
 }
 
 #qualificationsContainer
@@ -24,7 +26,10 @@
 
 }
 
-.qualificationsTitle
+.shortCut
 {
-
+    text-align:left;
+    margin-right:10px;
+    margin-bottom:10px;
 }
+
