@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\personal-website",
-    "\\personal-website\\public",
     "\\personal-website\\src",
-    "\\personal-website\\src\\cssFiles",
+    "\\personal-website\\src\\darkLightButton",
+    "\\personal-website\\src\\footer",
     "\\personal-website\\src\\jobsPage",
     "\\personal-website\\src\\landingPage",
     "\\personal-website\\src\\navBar",

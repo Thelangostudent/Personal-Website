@@ -5,12 +5,34 @@
  * 
  * */
 
+// Consider making shortcuts into card as it is a repeating element.
+
+import '../cssFiles/baseJobsPage.css';
+
 
 function baseJobPage() {
 
     return (
         
-        <h2>Jobs I have done will be here upon release of next version of this site <br></br>Stay tuned for updates!</h2>
+        <div id="jobPageContainer">
+            <h2 id="jobsPageTitle"> My Jobs</h2>
+            <div id="inPageshortCuts">
+                <ul> <p id="shortCutsTitle">Shortcuts</p>
+                    <li className="shortCut"><a href="#job_1">Open to work</a></li>
+                </ul>
+            </div>
+
+            <div id="jobsContainer">
+                <div id="job_1">
+                    <h3 className="jobTitle">Open to work</h3>
+                    <p>I have entered the job market after studying. Feel free to contact if you find what I do interesting </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
         
     );
 
