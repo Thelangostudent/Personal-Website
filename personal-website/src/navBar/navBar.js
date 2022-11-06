@@ -20,7 +20,7 @@ import  DarkLightButton  from '../darkLightButton/darklightButton';
               
                 <ul id="navBarList">
                     <li className="navItem">
-                        <Link to ="/"> Main Page</Link>
+                        <Link to ="/">Main Page</Link>
                     </li>
                     <li className="navItem">
                         <Link to ="/aboutPage">About</Link>

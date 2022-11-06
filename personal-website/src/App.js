@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 //import './cssFiles/App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Routes, Route, } from 'react-router-dom';
 import NavBar from './navBar/navBar';
 import LandingPage from './landingPage/landingPage';
 import ProjectsPages from './projectsPages/baseProjectPage';
@@ -17,18 +17,18 @@ import QualificationsPage from './qualificationsPage/baseQualificationsPage';
 function App() {
   return (
       <div className="App">
-          
-          <BrowserRouter>
+
+          <HashRouter>
               <Routes>
                   <Route path="/" element={<NavBar />}>
                       <Route index element={<LandingPage />} />
                       <Route path="baseProjectPage" element={<ProjectsPages />} />
-                      <Route path="*" element={<AboutPage />} />
+                      <Route path="aboutPage" element={<AboutPage />} />
                       <Route path="baseJobPage" element={<JobsPage />} />
                       <Route path="baseQualificationsPage" element={<QualificationsPage />} />
                   </Route>
               </Routes>
-          </BrowserRouter>
+          </HashRouter>
 
           
     </div>
