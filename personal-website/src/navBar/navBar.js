@@ -13,6 +13,10 @@ import '../cssFiles/navBar.css';
 import  DarkLightButton  from '../darkLightButton/darklightButton';
 
 
+/***
+ * This is the navbar that is always rendered first.
+ * Nice JSX element right? Always useful.
+ * */
  function navBar() {
     return (
         <div className="navBar">
